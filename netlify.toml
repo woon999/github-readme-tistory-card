@@ -1,0 +1,9 @@
+[build]
+  functions = "functions"
+
+[[redirect]]
+  from = "/.netlify/functions/server"
+  to = "/"
+
+[context.production.environment]
+    ACCESS_TOKEN = "From netlify.toml"
