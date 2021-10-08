@@ -35,7 +35,7 @@ const createCard = async (
 
 
 const sideIcon = (isNew, comments) => {
-    return isNew ? `
+    return (isNew === true) ? `
         <svg xmlns="http://www.w3.org/2000/svg" width="30" x="378" y="-14" height="17" viewBox="0 0 30 17" fill="none">
             <text data-testid="lang-name" x="2" y="15" class="new" font-size:"100px">new</text>
         </svg>

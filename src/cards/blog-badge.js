@@ -11,10 +11,10 @@ const createBadge = async (name, theme) => {
     const { titleColor, iconColor, bgColor } = getBadgeColor(theme);
 
     return (`
-        <svg xmlns="http://www.w3.org/2000/svg" width="160" height="34" viewBox="0 0 160 25" fill="none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="120" height="34" viewBox="0 0 120 25" fill="none">
         
         ${badgeStyle(titleColor, iconColor, bgColor)}
-        <svg xmlns="http://www.w3.org/2000/svg" width="159" height="25" viewBox="0 0 159 25" fill="none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="119" height="25" viewBox="0 0 119 25" fill="none">
             <g>
                 <rect x="22" width="${size}" height="25" class="bg"/>
                 <text x="30" y="17" class="title">${name}</text>
