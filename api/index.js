@@ -1,6 +1,4 @@
 const renderCard = require("../src/cards/post-card");
-const express = require('express');
-const router = express.Router();
 const axios = require('axios');
 
 const dotenv = require('dotenv');
@@ -59,5 +57,3 @@ const getNewPost = async (blogName) => {
         throw new Error(e)
     }
 }
-
-module.exports = router;

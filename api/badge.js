@@ -1,7 +1,4 @@
 const createBadge = require("../src/cards/blog-badge");
-const express = require('express');
-const router = express.Router();
-
 
 module.exports = async (req, res) => {
     const { name, theme } = req.query;
@@ -12,5 +9,3 @@ module.exports = async (req, res) => {
         res.send(e.message)
     }
 }
-
-module.exports = router;
