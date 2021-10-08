@@ -1,31 +1,14 @@
+const renderCard = require("../src/cards/post-card");
 const express = require('express');
-const app = express();
+const router = express.Router();
 const axios = require('axios');
+
 const dotenv = require('dotenv');
 dotenv.config();
 const ACCESS_TOKEN = process.env.ACCESS_TOKEN;
 
-const router = express.Router();
-
-const renderCard = require("./src/cards/post-card");
-const createBadge = require("./src/cards/blog-badge");
-
-router.get('/test', (req, res) => {
-    res.send('respond with a resource');
-})
-
-router.get('/api/badge', async (req, res) => {
-    const { name, theme } = req.query;
-    res.setHeader('Content-Type', 'image/svg+xml');
-    try {
-        res.send(await createBadge(name, theme))
-    } catch (e) {
-        res.send(e.message)
-    }
-})
-
 // 게시글 카드 가져오기 (name, postId, theme)
-router.get('/api/post', async (req, res) => {
+module.exports = async (req, res) => {
     try {
         const name = req.query.name;
         const postId = req.query.postId || (await getNewPost(req.query.name));
@@ -37,7 +20,8 @@ router.get('/api/post', async (req, res) => {
     } catch (e) {
         res.send(e.message)
     }
-})
+}
+
 
 const getPost = async (blogName, postId) => {
     try {
@@ -76,10 +60,4 @@ const getNewPost = async (blogName) => {
     }
 }
 
-app.use('/', router);
-
-const port = process.env.PORT || 5000;
-app.listen(port, () => console.log(`Server listen on port... ${port}`));
-
-module.exports = app;
-
+module.exports = router;

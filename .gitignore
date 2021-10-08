@@ -48,6 +48,4 @@ jspm_packages/
 # Optional eslint cache
 .eslintcache
 
-functions
 .env
-routes

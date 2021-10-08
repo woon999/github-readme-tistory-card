@@ -2,11 +2,10 @@
   "name": "tistory-readme-stats",
   "version": "1.0.0",
   "description": "service that shows tistroy stats in readme.md file",
-  "main": "functions/server.js",
+  "main": "index.js",
   "scripts": {
     "start": "nodemon local-server.js",
-    "dev": "netlify-lambda serve express",
-    "build": "netlify-lambda build express",
+    "dev": "vercel dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "loosie",
@@ -21,11 +20,8 @@
   "homepage": "https://github.com/loosie/github-tistory-readme-stats#readme",
   "dependencies": {
     "axios": "^0.22.0",
-    "body-parser": "^1.19.0",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "netlify-lambda": "^2.0.14",
-    "nodemon": "^2.0.13",
-    "serverless-http": "^2.7.0"
+    "nodemon": "^2.0.13"
   }
 }
