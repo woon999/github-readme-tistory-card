@@ -12,7 +12,7 @@ const letterSpacing = (text) => {
         if (number.test(letter)) {
             len += 6;
         } else if (korean.test(letter)) {
-            len += 10.5;
+            len += 11.5;
         } else if (capEnglish.test(letter)) {
             len += 7.5;
         } else {
@@ -32,7 +32,7 @@ const getTagSVG = (tags) => {
         let size = 16;
         size += letterSpacing(tag);
 
-        if (xPos < 320) {
+        if (xPos + size < 430) {
             tagSVG += `
                 <svg data-testid="lang-items" x="${xPos}" width="${size}" viewBox="0 0 ${size} 19">
                     <g style="position: relative;">
