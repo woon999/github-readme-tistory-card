@@ -10,7 +10,7 @@ const createCard = async (
         = getCardColor(theme);
 
     res.send(`
-        <svg xmlns="http://www.w3.org/2000/svg" width="425" height="120" viewBox="0 0 450 130" fill="none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="450" height="130" viewBox="0 0 450 130" fill="none">
             ${cardStyle(titleColor, textColor, iconColor, tagColor, tagBgColor, bgColor, borderColor)}
             
             <rect xmlns="http://www.w3.org/2000/svg" data-testid="card-bg" x="0.5" y="0.5" rx="4.5" height="99%" width="449" stroke-opacity="1" class="card-wrapper"/>
