@@ -1,8 +1,5 @@
 const renderCard = require("../src/cards/post-card");
 const axios = require('axios');
-
-const dotenv = require('dotenv');
-dotenv.config();
 const ACCESS_TOKEN = process.env.ACCESS_TOKEN;
 
 // 게시글 카드 가져오기 (name, postId, theme)
@@ -11,7 +8,7 @@ module.exports = async (req, res) => {
         const name = req.query.name;
         const postId = req.query.postId || (await getNewPost(req.query.name));
         const isNew = req.query.isNew;
-        await renderCard(res, isNew, {
+        renderCard(res, isNew, {
             ...req.query,
             ...(await getPost(name, postId)),
         });

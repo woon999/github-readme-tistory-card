@@ -30,7 +30,7 @@ router.get('/api/post', async (req, res) => {
         const name = req.query.name;
         const postId = req.query.postId || (await getNewPost(req.query.name));
         const isNew = req.query.isNew;
-        await renderCard(res, isNew, {
+        renderCard(res, isNew, {
             ...req.query,
             ...(await getPost(name, postId)),
         });
