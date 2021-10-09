@@ -4,11 +4,11 @@ const ACCESS_TOKEN = process.env.ACCESS_TOKEN;
 const express = require('express');
 const app = express();
 
-app.get('/test', async (req, res) => {
+app.get('/api/test', async (req, res) => {
     res.send(process.env.ACCESS_TOKEN);
 })
 // 게시글 카드 가져오기 (name, postId, theme)
-app.get('/', async (req, res) => {
+app.get('/api', async (req, res) => {
     try {
         const name = req.query.name;
         const postId = req.query.postId || (await getNewPost(req.query.name));
