@@ -12,11 +12,11 @@ const letterSpacing = (text) => {
         if (number.test(letter)) {
             len += 6;
         } else if (korean.test(letter)) {
-            len += 11.5;
+            len += 11.2;
         } else if (capEnglish.test(letter)) {
-            len += 7.5;
+            len += 6.2;
         } else {
-            len += 5.5;
+            len += 5.2;
         }
     }
 
