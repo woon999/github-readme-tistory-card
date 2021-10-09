@@ -30,6 +30,7 @@ router.get('/api/post', async (req, res) => {
         const name = req.query.name;
         const postId = req.query.postId || (await getNewPost(req.query.name));
         const isNew = req.query.isNew;
+        res.setHeader('Content-Type', 'image/svg+xml');
         renderCard(res, isNew, {
             ...req.query,
             ...(await getPost(name, postId)),

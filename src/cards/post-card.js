@@ -2,7 +2,7 @@ const { cardStyle } = require('../common/utils');
 const { getCardColor } = require('../common/utils');
 const { getTagSVG } = require('../common/utils');
 
-const createCard = (
+const createCard = async (
     res, isNew,
     { theme, name, title, comments, tags }
 ) => {
