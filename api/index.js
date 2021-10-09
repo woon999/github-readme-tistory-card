@@ -1,14 +1,9 @@
 const renderCard = require("../src/cards/post-card");
 const axios = require('axios');
 const ACCESS_TOKEN = process.env.ACCESS_TOKEN;
-const express = require('express');
-const app = express();
 
-app.get('/api/test', async (req, res) => {
-    res.send(process.env.ACCESS_TOKEN);
-})
 // 게시글 카드 가져오기 (name, postId, theme)
-app.get('/api', async (req, res) => {
+module.exports = async (req, res) => {
     try {
         const name = req.query.name;
         const postId = req.query.postId || (await getNewPost(req.query.name));
@@ -20,7 +15,7 @@ app.get('/api', async (req, res) => {
     } catch (e) {
         res.send(e.message)
     }
-})
+}
 
 
 const getPost = async (blogName, postId) => {
@@ -59,5 +54,3 @@ const getNewPost = async (blogName) => {
         throw new Error(e)
     }
 }
-
-module.exports = app;
