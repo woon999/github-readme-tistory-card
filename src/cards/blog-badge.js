@@ -32,9 +32,5 @@ const createBadge = async (name, theme) => {
     </svg>
     `);
 }
-{/* <style>
-            .title{ fill: #ffffff; font-weight: 500; font-size: 13px;}
-            .bg { fill: #eb531f; }
-            .icon { fill: #ffffff; }
-        </style> */}
+
 module.exports = createBadge;

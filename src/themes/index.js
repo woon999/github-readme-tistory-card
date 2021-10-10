@@ -44,7 +44,7 @@ const postCardTheme = {
         bg_color: "fffefe",
         border_color: "e4e2e2",
     },
-    "dark": {
+    "vue-dark": {
         title_color: "9f9f9f",
         text_color: "fff",
         tag_color: "151515",

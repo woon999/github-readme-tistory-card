@@ -1,4 +1,4 @@
-const { postCardTheme, badgeTheme } = require("../theme");
+const { postCardTheme, badgeTheme } = require("../themes");
 
 const letterSpacing = (text) => {
     const number = /[0-9]/;
