@@ -4,7 +4,15 @@
 <p align="center">
 <a href="https://vercel.com/loosie/github-readme-tistory-card">
   <img alt="Vercel" src="https://camo.githubusercontent.com/450fce3bb376c91fa1fba519f9944989f473fe74436b80d653cebf3f463fe471/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6465706c6f796d656e74732f6a616b656a61727669732f6a6172762e69732f70726f64756374696f6e3f6c6162656c3d76657263656c266c6f676f3d76657263656c266c6f676f436f6c6f723d7768697465" />
+  
+<a href="https://vercel.com/loosie/github-readme-tistory-card">
+  <img alt="build" src="https://img.shields.io/badge/build-success-brightgreen" />
 </a>
+  
+  <a href="https://github.com/loosie/github-readme-tistory-card/blob/main/LICENSE">
+  <img alt="license" src="https://img.shields.io/badge/license-MIT-blue" />
+</a>
+
 </p>
 
 <br/>
