@@ -49,10 +49,6 @@ Tistory의 뱃지를 사용해보세요.
 -  default, dark, vue, blue, kakao
 <img width="560" alt="스크린샷 2021-10-08 오전 3 09 26" src="https://user-images.githubusercontent.com/54282927/136439742-21a3698f-cacb-459a-8470-c61a47d7ba97.png">
 
-공통 옵션
-- `title_color` 
-- `icon_color`
-- `bg_color`
 
 <br/>
 
@@ -79,16 +75,16 @@ Tistory의 뱃지를 사용해보세요.
 
 ### All Themes
 -  default, tistory, santorini, bluedot, vue, vue-dark, kakao, gatsby
+
 <img width="820" alt="스크린샷 2021-10-08 오전 1 12 59" src="https://user-images.githubusercontent.com/54282927/136437771-aac28fa5-9f0d-4312-b82f-66267d45cd05.png">
 
-공통 옵션
-- `title_color` 
-- `text_color`
-- `tag_color`
-- `tag_bg_color`
-- `icon_color`
-- `bg_color`
-- `border_color`
+<br/>
 
----
-최종 수정 2021.10.10 © loosie
+## Customization
+-  혹시 원하신다면 [사용하고 싶은 색상](https://github.com/loosie/github-readme-tistory-card/tree/main/src/themes)을 직접 커스텀할 수 있습니다. :)
+  
+  <br/>
+  <br/>
+  
+  ---
+Created By © loosie (last edited: 2021.10.11)
