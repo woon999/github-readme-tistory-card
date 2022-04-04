@@ -8,7 +8,6 @@ const createCard = async (
 ) => {
     const { titleColor, textColor, iconColor, tagColor, tagBgColor, bgColor, borderColor }
         = getCardColor(theme);
-
     res.send(`
         <svg xmlns="http://www.w3.org/2000/svg" width="450" height="130" viewBox="0 0 450 130" fill="none">
             ${cardStyle(titleColor, textColor, iconColor, tagColor, tagBgColor, bgColor, borderColor)}
@@ -46,7 +45,7 @@ const sideIcon = (isNew, comments) => {
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" x="380" y="-14" height="17" viewBox="131 -131 512 512" style="enable-background:new 131 -131 512 512;">
         >
             <path d="M643,88.2c0,33.6-11.2,63.4-34.5,92.3c-23.3,28-54.1,50.4-93.3,67.1c-39.2,15.9-82.1,24.2-128.7,24.2 c-13.1,0-27-0.9-42-1.9c-38.2,33.6-82.1,56.9-131.5,69c-9.3,2.8-20.5,4.7-32.6,6.5c-2.8,0-6.5-0.9-8.4-2.8s-4.7-4.7-4.7-8.4l0,0 c-0.9-0.9-0.9-1.9,0-3.7c0.9-1.9,0.9-2.8,0.9-2.8s0-0.9,0.9-2.8l1.9-2.8l1.9-2.8l1.9-2.8c0.9-1.9,4.7-4.7,9.3-10.3 c4.7-4.7,7.5-8.4,10.3-11.2c2.8-2.8,4.7-5.6,9.3-11.2c3.7-5.6,7.5-10.3,9.3-14.9c1.8-4.6,4.7-10.3,7.5-16.8 c2.8-6.5,5.6-14,7.5-21.4c-29.8-16.8-53.2-38.2-70.9-63.4c-17.7-25-26.1-52.1-26.1-80.1c0-25.2,6.5-48.5,20.5-70.9s31.7-42,55-58.8 s50.4-29.8,82.1-39.2c31.7-9.4,65.3-14,99.8-14c46.6,0,89.5,8.4,128.7,24.2S588-33.3,610.4-4.4C631.8,23.8,643,54.6,643,88.2z"
-             class="comment-icon"/>
+            class="comment-icon"/>
         </svg>
         <text x="365" class="comment-count" data-testid="comment-count">${comments}</text>
         `;
