@@ -59,16 +59,9 @@ Tistory의 뱃지를 사용해보세요.
 
 <br/>
 
----
 
-## ❗️ 최근 Tistory 오픈 API를 통한 스팸성 게시물 작성이 증가하여 이용이 중단된 상태입니다. 그래서 SVG 카드도 현재 사용이 불가능합니다. 이 메세지가 사라지면 OPEN API가 다시 오픈되어 사용이 가능하다는 뜻입니다.
 
-<br >
-
-# ~~Tistory Post Card~~
-
-자신의 tistory 블로그에 있는 게시글을 readme.md에 올려보세요.
-
+# Tistory Post Card
 - `postId={insert_postId}` 의 값을 입력하세요. (default: 블로그 가장 최신 글)
 - `name={insert_blogName}` (필수 입력: xxx.tistory.com의 xxx을 입력)
 
