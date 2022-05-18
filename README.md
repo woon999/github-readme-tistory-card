@@ -49,7 +49,8 @@ Tistory의 뱃지를 사용해보세요.
 ### All Themes
 
 - default, dark, vue, blue, kakao
-  <img width="560" alt="스크린샷 2021-10-08 오전 3 09 26" src="https://user-images.githubusercontent.com/54282927/136439742-21a3698f-cacb-459a-8470-c61a47d7ba97.png">
+  
+<img width="560" alt="스크린샷 2021-10-08 오전 3 09 26" src="https://user-images.githubusercontent.com/54282927/136439742-21a3698f-cacb-459a-8470-c61a47d7ba97.png">
 
 공통 옵션
 
@@ -86,7 +87,8 @@ Tistory의 뱃지를 사용해보세요.
 ### All Themes
 
 - default, tistory, santorini, bluedot, vue, vue-dark, kakao, gatsby
-  <img width="820" alt="스크린샷 2021-10-08 오전 1 12 59" src="https://user-images.githubusercontent.com/54282927/136437771-aac28fa5-9f0d-4312-b82f-66267d45cd05.png">
+  
+<img width="820" alt="스크린샷 2021-10-08 오전 1 12 59" src="https://user-images.githubusercontent.com/54282927/136437771-aac28fa5-9f0d-4312-b82f-66267d45cd05.png">
 
 공통 옵션
 
