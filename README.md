@@ -76,6 +76,8 @@ Tistory의 뱃지를 사용해보세요.
 
 ```
 
+[![Tistory's Card](https://github-readme-tistory-card.vercel.app/api?name=loosie&theme=bluedot)](https://loosie.tistory.com/497)
+
 [![Tistory's Card](https://github-readme-tistory-card.vercel.app/api?name=loosie&postId=497&theme=bluedot)](https://loosie.tistory.com/497)
 
 ### All Themes

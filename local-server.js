@@ -10,7 +10,7 @@ const router = express.Router();
 const renderCard = require("./src/cards/post-card");
 const createBadge = require("./src/cards/blog-badge");
 
-router.get('/test', (req, res) => {
+router.get('/health', (req, res) => {
     res.send('respond with a resource');
 })
 
