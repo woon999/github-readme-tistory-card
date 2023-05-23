@@ -28,10 +28,7 @@ Tistory의 뱃지를 사용해보세요.
 [![Tistory's Badge](https://github-readme-tistory-card.vercel.app/api/badge?name={insert_name})](https://github.com/loosie/github-readme-tistory-card)
 
 ```
-
-<a href="https://loosie.tistory.com/">
-  <img alt="Tistory's Badge" src="https://github-readme-tistory-card.vercel.app/api/badge?name=Tistory Badge" />
-</a>
+[![Tistory's Badge](https://github-readme-tistory-card.vercel.app/api/badge?name=Tistory%20Badge)](https://github.com/loosie/github-readme-tistory-card)
 
 ## Themes
 
@@ -41,10 +38,7 @@ Tistory의 뱃지를 사용해보세요.
 [![Tistory's Badge](https://github-readme-tistory-card.vercel.app/api/badge?name={insert_name}&theme={insert_theme})](https://github.com/loosie/github-readme-tistory-card)
 
 ```
-
-<a href="https://loosie.tistory.com/">
-  <img alt="Tistory's Badge" src="https://github-readme-tistory-card.vercel.app/api/badge?name=Tistory Badge&theme=blue" />
-</a>
+[![Tistory's Badge](https://github-readme-tistory-card.vercel.app/api/badge?name=Tistory%20Badge&theme=blue)](https://github.com/loosie/github-readme-tistory-card)
 
 ### All Themes
 
@@ -102,4 +96,4 @@ Tistory의 뱃지를 사용해보세요.
 
 ---
 
-최종 수정 2022.04.04 © loosie
+최종 수정 2023.05.04 © loosie
